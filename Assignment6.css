@@ -1,0 +1,21 @@
+.carousel-item {
+    height: 350px;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+}
+
+.divinjumbo {
+    width: 30%;
+}
+
+.taggingoflist {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.doctors1 {
+    margin-left: 5%;
+}

@@ -1,0 +1,30 @@
+#img{
+    position: relative;
+    top: 100px;
+    right: -200px;
+}
+#img1{
+    position: relative;
+    top: -205px;
+    right: -450px;
+}
+#img2{
+    position: relative;
+    top: -510px;
+    right: -700px;
+}
+#img3{
+    position: relative;
+    top: -815px;
+    right: -950px;
+}
+#img4{
+    position: relative;
+    top: -1120px;
+    right: -1200px;
+}
+#button{
+    position: relative;
+    top: -1000px;
+    right: -800px;
+}

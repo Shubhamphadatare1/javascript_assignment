@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <link rel="stylesheet" href="Assignment2.css">
+        <script src="Assignment2_clock.js"></script>
+        <script src="Assignment2_stopwatch.js"></script>
+
+
+        <title> JavaScript Stop Watch </title> 
+        
+    </head> 
+    <h1 id="h1">Digital clock with stop watch</h1>
+    <body class="body" onload="show();"> 
+        <div class="clock">
+            <div class="display">
+      </div>
+      </div>
+      <fieldset class="f1">
+        <legend>Clock</legend>
+        
+      
+        </fieldset>
+        <fieldset class="f2">
+            <legend>Stop Watch</legend>
+            
+        </fieldset>
+        <div id="stopwatch">
+        </div> 
+        <div class="timer"> <span id="time"></span></div>
+        <input type="button" id="b1" value="start" onclick="start();">
+        <input type="button" id="b2" value="stop" onclick="stop();">
+        <input type="button" id="b3" value="reset" onclick="reset()">
+        </div>
+    </body> 
+    </html> 

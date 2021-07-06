@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shubham Hospital</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+    <link rel="stylesheet" href="Assignment6.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <img src="/images/sh.png" class="rounded-circle" width="50px" />
+      <a href="Assignment6.html" class="navbar-brand">&nbsp;Shubham Hospital</a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ml-auto">
+          <a href="Assignment6.html" class="nav-item nav-link"
+            ><i class="fa fa-home"></i> Home</a
+          >
+          <a href="about.html" class="nav-item nav-link ml-3"
+            ><i class="fa fa-info-circle"></i> About Us</a
+          >
+          <a href="contact.html" class="nav-item nav-link ml-3 active"
+            ><i class="fa fa-address-book"></i> Contact</a
+          >
+        </div>
+        <form class="form-inline ml-auto">
+          <input
+            type="text"
+            class="form-control mr-sm-2"
+            placeholder="Search"
+          />
+          <button type="submit" class="btn btn-outline-light">
+            <i class="fa fa-search"></i> Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container contact-form mt-3">
+      <div class="contact-image">
+        <img class="rounded-circle" src="/images/contact_us.png" />
+      </div>
+      <form class="p-5">
+        <h3 class="mb-5">Contact Us for admissions or enquiry</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Phone Number"
+                maxlength="10"
+              />
+            </div>
+            <div class="form-group">
+              <button
+                type="button"
+                class="btn btn-success btnContact mt-3"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                Send message
+              </button>
+
+              <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p>
+                        Thank you! Shubham Hospital will reach out you soon....
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-dismiss="modal"
+                      >
+                        Ok
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                placeholder="Your Message"
+                style="width: 100%; height: 150px"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <footer class="page-footer font-small text-light">
+      <div class="footer-copyright text-center py-3 bg-dark">
+        © 2021 Copyright:
+        <a href="Assignment6.html">Shubham Hospital</a>
+      </div>
+    </footer>
+  </body>
+</html>
